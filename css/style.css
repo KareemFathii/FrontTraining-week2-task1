@@ -188,6 +188,9 @@ font-weight: bold;
 }
 /* responsive design  */
 @media (max-width: 1300px){
+     .container, .container-md, .container-sm {
+        max-width: 100%;
+    }
     .content {
         display: flex;
         flex-direction: column;
